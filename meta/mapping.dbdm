@@ -336,6 +336,9 @@ FLAGS Campaign::Flags CampaignFlags
 FLAGS Cfg_Categories::Create_charsetMask CfgCategoriesCharsets
 FLAGS Cfg_Categories::Existing_charsetMask CfgCategoriesCharsets
 FLAGS Cfg_Categories::Flags CfgCategoriesFlags
+FLAGS CharacterLoadout::Racemask RaceMaskOld
+FLAGS CharacterLoadout::RaceMasks[0] RaceMask0
+FLAGS CharacterLoadout::RaceMasks[1] RaceMask1
 FLAGS CharSections::Flags CharSectionFlags
 FLAGS CharShipment::Flags CharShipmentFlags
 FLAGS ChatChannels::Flags ChatChannelFlags
@@ -345,6 +348,9 @@ FLAGS ChrCustomizationCategory::Flags ChrCustomizationCategoryFlags
 FLAGS ChrCustomizationChoice::Flags ChrCustomizationChoiceFlags
 FLAGS ChrCustomizationOption::Flags ChrCustomizationOptionFlags
 FLAGS ChrCustomizationReq::ClassMask ClassMask
+FLAGS ChrCustomizationReq::RaceMask RaceMaskOld
+FLAGS ChrCustomizationReq::RaceMasks[0] RaceMask0
+FLAGS ChrCustomizationReq::RaceMasks[1] RaceMask1
 FLAGS ChrCustomizationVisReq::Flags ChrCustomizationVisReqFlags
 FLAGS ChrModel::Flags ChrModelFlags
 FLAGS ChrModelMaterial::Flags ChrModelMaterialFlags
@@ -361,6 +367,9 @@ FLAGS CreatureDifficulty::Flags[4] CreatureStaticFlags4
 FLAGS CreatureDifficulty::Flags[5] CreatureStaticFlags5
 FLAGS CreatureDifficulty::Flags[6] CreatureStaticFlags6
 FLAGS CreatureDisplayInfo::Flags CreatureDisplayInfoFlags
+FLAGS CreatureDisplayInfoCond::RaceMask RaceMaskOld
+FLAGS CreatureDisplayInfoCond::RaceMasks[0] RaceMask0
+FLAGS CreatureDisplayInfoCond::RaceMasks[1] RaceMask1
 FLAGS CreatureImmunities::Flags CreatureImmunitiesFlags
 FLAGS CreatureModelData::Flags CreatureModelDataFlags
 FLAGS Criteria::Flags CriteriaFlags
@@ -370,7 +379,22 @@ FLAGS CurrencyTypes::Flags[1] CurrencyFlags1
 FLAGS Difficulty::Flags DifficultyFlags
 FLAGS DungeonEncounter::Flags DungeonEncounterFlags
 FLAGS Emotes::EmoteFlags EmoteFlags
+FLAGS Emotes::RaceMask RaceMaskOld
+FLAGS Emotes::RaceMasks[0] RaceMask0
+FLAGS Emotes::RaceMasks[1] RaceMask1
 FLAGS ExteriorComponent::Flags ExteriorComponentFlags
+FLAGS Faction::ReputationRaceMask[0] RaceMaskOld
+FLAGS Faction::ReputationRaceMask[1] RaceMaskOld
+FLAGS Faction::ReputationRaceMask[2] RaceMaskOld
+FLAGS Faction::ReputationRaceMask[3] RaceMaskOld
+FLAGS Faction::ReputationRaceMasks0[0] RaceMask0
+FLAGS Faction::ReputationRaceMasks0[1] RaceMask1
+FLAGS Faction::ReputationRaceMasks1[0] RaceMask0
+FLAGS Faction::ReputationRaceMasks1[1] RaceMask1
+FLAGS Faction::ReputationRaceMasks2[0] RaceMask0
+FLAGS Faction::ReputationRaceMasks2[1] RaceMask1
+FLAGS Faction::ReputationRaceMasks3[0] RaceMask0
+FLAGS Faction::ReputationRaceMasks3[1] RaceMask1
 FLAGS FriendshipReputation::Flags FriendshipReputationFlags
 FLAGS GarrAbility::Flags GarrAbilityFlags
 FLAGS GarrAbilityEffect::Flags GarrAbilityEffectFlags
@@ -397,6 +421,9 @@ FLAGS ItemBonusListGroupEntry::Flags ItemBonusListGroupEntryFlags
 FLAGS ItemDisplayInfo::Flags ItemDisplayInfoFlags
 FLAGS ItemScalingConfig::Flags ItemScalingConfigFlags
 FLAGS ItemSearchName::AllowableClass ClassMask
+FLAGS ItemSearchName::AllowableRace RaceMaskOld
+FLAGS ItemSearchName::AllowableRaces[0] RaceMask0
+FLAGS ItemSearchName::AllowableRaces[1] RaceMask1
 FLAGS ItemSearchName::Flags[0] ItemStaticFlags0
 FLAGS ItemSearchName::Flags[1] ItemStaticFlags1
 FLAGS ItemSearchName::Flags[2] ItemStaticFlags2
@@ -405,6 +432,9 @@ FLAGS ItemSearchName::Flags[4] ItemStaticFlags4
 FLAGS ItemSet::SetFlags ItemSetSetFlags
 FLAGS ItemSparse::AllowableClass ClassMask
 FLAGS ItemSparse::BagFamily BagFamily
+FLAGS ItemSparse::AllowableRace RaceMaskOld
+FLAGS ItemSparse::AllowableRaces[0] RaceMask0
+FLAGS ItemSparse::AllowableRaces[1] RaceMask1
 FLAGS ItemSparse::Flags[0] ItemStaticFlags0
 FLAGS ItemSparse::Flags[1] ItemStaticFlags1
 FLAGS ItemSparse::Flags[2] ItemStaticFlags2
@@ -434,11 +464,17 @@ FLAGS NeighborhoodInitiative::Flags NeighborhoodInitiativeFlags
 FLAGS Phase::Flags PhaseFlags
 FLAGS PlayerCondition::ClassMask ClassMask
 FLAGS PlayerCondition::Flags PlayerConditionFlags
+FLAGS PlayerCondition::RaceMask RaceMaskOld
+FLAGS PlayerCondition::RaceMasks[0] RaceMask0
+FLAGS PlayerCondition::RaceMasks[1] RaceMask1
 FLAGS PowerType::Flags PowerTypeFlags
 FLAGS QuestInfo::Modifiers QuestTagModifierFlags
 FLAGS QuestLineXQuest::Flags QuestListXQuestFlags
 FLAGS QuestObjective::Flags QuestObjectiveFlags
 FLAGS QuestPOIBlob::Flags QuestPOIBlobFlags
+FLAGS QuestV2CliTask::FiltRaces RaceMaskOld
+FLAGS QuestV2CliTask::FiltRaceMasks[0] RaceMask0
+FLAGS QuestV2CliTask::FiltRaceMasks[1] RaceMask1
 FLAGS QuestV2CliTask::Flags[0] QuestFlags0
 FLAGS QuestV2CliTask::Flags[1] QuestFlags1
 FLAGS QuestV2CliTask::Flags[1] QuestFlags2
@@ -447,7 +483,13 @@ FLAGS RuneforgeLegendaryAbility::InventoryTypeMask InventoryTypeMask
 FLAGS Scenario::Flags ScenarioFlags
 FLAGS ScenarioStep::Flags ScenarioStepFlags
 FLAGS SharedString::Flags SharedStringFlags
+FLAGS SkillRaceClassInfo::RaceMask RaceMaskOld
+FLAGS SkillRaceClassInfo::RaceMasks[0] RaceMask0
+FLAGS SkillRaceClassInfo::RaceMasks[1] RaceMask1
 FLAGS SkillLine::Flags SkillLineFlags
+FLAGS SkillLineAbility::RaceMask RaceMaskOld
+FLAGS SkillLineAbility::RaceMasks[0] RaceMask0
+FLAGS SkillLineAbility::RaceMasks[1] RaceMask1
 FLAGS SoundAmbience::Flags SoundAmbienceFlags
 FLAGS SoundEmitters::Flags SoundEmitterFlags
 FLAGS SoundKit::Flags SoundKitFlags
@@ -477,6 +519,9 @@ FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=72
 FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=73
 FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=74
 FLAGS SpellEffect::EffectMiscValue[1] CombatRatingFlags SpellEffect::EffectAura=198
+FLAGS SpellFlyout::RaceMask RaceMaskOld
+FLAGS SpellFlyout::RaceMasks[0] RaceMask0
+FLAGS SpellFlyout::RaceMasks[1] RaceMask1
 FLAGS SpellInterrupts::AuraInterruptFlags[0] AuraInterruptFlags0
 FLAGS SpellInterrupts::AuraInterruptFlags[1] AuraInterruptFlags1
 FLAGS SpellInterrupts::ChannelInterruptFlags[0] AuraInterruptFlags0
@@ -525,6 +570,9 @@ FLAGS UIScriptedAnimationEffect::Flags UIScriptedAnimationEffectFlags
 FLAGS VehiclePOIType::Flags VehiclePOITypeFlags
 FLAGS Vignette::Flags VignetteFlags
 FLAGS WarbandScene::Flags WarbandSceneFlags
+FLAGS WarbandScenePlacementFilterReq::RaceMask RaceMaskOld
+FLAGS WarbandScenePlacementFilterReq::RaceMasks[0] RaceMask0
+FLAGS WarbandScenePlacementFilterReq::RaceMasks[1] RaceMask1
 FLAGS WaypointEdge::Flags WaypointEdgeFlags
 FLAGS WaypointNode::Flags WaypointNodeFlags
 FLAGS WbAccessControlList::GrantFlags IngameBrowserFlags

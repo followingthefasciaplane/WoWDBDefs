@@ -162,4 +162,4 @@ Description_lang
 Flags<u8>
 ClassMask<32>
 SpellIconFileID<32>
-RaceMask<32>[2]
+RaceMasks<32>[2]

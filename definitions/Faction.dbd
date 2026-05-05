@@ -17,10 +17,10 @@ int<Faction::ID> ParagonFactionID
 int ReputationMax
 int<Faction::ID> RenownFactionID?
 int<CurrencyTypes::ID> RenownCurrencyID?
-int Field_12_0_5_66330_017? // These are split up racemasks, todo: figure out good names
-int Field_12_0_5_66330_018? // These are split up racemasks, todo: figure out good names
-int Field_12_0_5_66330_019? // These are split up racemasks, todo: figure out good names
-int Field_12_0_5_66330_020? // These are split up racemasks, todo: figure out good names
+int ReputationRaceMasks0?
+int ReputationRaceMasks1?
+int ReputationRaceMasks2?
+int ReputationRaceMasks3?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -240,10 +240,10 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
-ReputationRaceMask<32>[2]
-Field_12_0_5_66330_018<32>[2]
-Field_12_0_5_66330_019<32>[2]
-Field_12_0_5_66330_020<32>[2]
+ReputationRaceMasks0<32>[2]
+ReputationRaceMasks1<32>[2]
+ReputationRaceMasks2<32>[2]
+ReputationRaceMasks3<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -562,10 +562,10 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
-Field_12_0_5_66330_017<32>[2]
-Field_12_0_5_66330_018<32>[2]
-Field_12_0_5_66330_019<32>[2]
-Field_12_0_5_66330_020<32>[2]
+ReputationRaceMasks0<32>[2]
+ReputationRaceMasks1<32>[2]
+ReputationRaceMasks2<32>[2]
+ReputationRaceMasks3<32>[2]
 
 LAYOUT E7553DC7
 BUILD 12.0.7.67227, 12.0.7.67344, 12.0.7.67346
@@ -586,7 +586,7 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
-Field_12_0_5_66330_017<32>[2]
-Field_12_0_5_66330_018<32>[2]
-Field_12_0_5_66330_019<32>[2]
-Field_12_0_5_66330_020<32>[2]
+ReputationRaceMasks0<32>[2]
+ReputationRaceMasks1<32>[2]
+ReputationRaceMasks2<32>[2]
+ReputationRaceMasks3<32>[2]
